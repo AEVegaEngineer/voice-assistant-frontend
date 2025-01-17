@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.conversation {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.question, .answer, .feedback {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.question {
+  background-color: #e6f3ff;
+}
+
+.answer {
+  background-color: #e6ffe6;
+}
+
+.feedback {
+  background-color: #fff0e6;
+}
+
+.current-question {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
